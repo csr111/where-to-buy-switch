@@ -19,7 +19,7 @@ Scan availability of Nintendo Switch from Amazon.ca, Bestbuy, Staples, The Sourc
   const send = async (text) => {
     await transporter.sendMail({
       from: '"Lester Lyu" <username@gmail.com>', // sender address
-      to: "username@gmail.com, username@gmail.com", // list of receivers
+      to: "csr940613@gmail.com", // list of receivers
       subject: "你的Switch有货了", // Subject line
       html: text // html body
     });
